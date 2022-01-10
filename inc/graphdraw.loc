@@ -1,0 +1,6 @@
+#ifdef LANGUAGE_01
+#include "GraphDraw.l01"
+#endif
+#ifdef LANGUAGE_54
+#include "GraphDraw.l54"
+#endif

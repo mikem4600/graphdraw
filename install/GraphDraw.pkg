@@ -1,0 +1,33 @@
+;
+; Installation file for GraphDraw application
+;
+;Languages
+&EN,EL
+;
+; UID is the app's UID
+; please request a UID from Symbian
+;
+#{"GraphDraw","GraphDraw"},(0x04CF613A),1,00,0
+;
+;Supports Series 60 v 0.9
+;This line indicates that this installation is for the Series 60 platform v0.9
+;This line must appear _exactly_ as shown below in the sis file
+;If this line is missing or incorrect, the sis file will not be able
+;to be installed on Series 60 v0.9 platforms
+(0x101F6F88), 0, 0, 0, {"Series60ProductID","Series60ProductID"}
+;
+; License file
+;
+{
+"license.txt"
+"licensegr.txt"
+}-"",FT,TA
+;
+; Files to install
+;
+"\Symbian\6.1\Series60\epoc32\release\armi\urel\graphdraw.app"          -"!:\system\apps\GraphDraw\GraphDraw.app"
+"\Symbian\6.1\Series60\epoc32\release\armi\urel\graphdraw.aif"          -"!:\system\apps\GraphDraw\GraphDraw.aif"
+"\Symbian\6.1\Series60\epoc32\release\armi\urel\GRAPHDRAW.R01"          -"!:\system\apps\GraphDraw\GRAPHDRAW.R01"
+"\Symbian\6.1\Series60\epoc32\release\armi\urel\GRAPHDRAW.R54"          -"!:\system\apps\GraphDraw\GRAPHDRAW.R54"
+"\Symbian\6.1\Series60\epoc32\release\armi\urel\GRAPHDRAW_CAPTION.R01"  -"!:\system\apps\GraphDraw\GRAPHDRAW_CAPTION.R01"
+"\Symbian\6.1\Series60\epoc32\release\armi\urel\GRAPHDRAW_CAPTION.R54"  -"!:\system\apps\GraphDraw\GRAPHDRAW_CAPTION.R54"
